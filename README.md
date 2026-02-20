@@ -2,13 +2,17 @@
 
 A collaborative repository for our team to systematically compare **Claude Code** and **GitHub Copilot** across real-world developer and data science workflows.
 
+## Important: Open Data Only
+
+All evaluations in this repo must use **publicly available, open datasets only**. Do not use any internal Equinor data, proprietary datasets, or confidential information. This ensures we can share findings openly and avoids any data governance concerns.
+
 ## Why This Exists
 
 AI coding assistants are evolving fast, but "which one is better?" depends heavily on the task, the workflow, and the user. Instead of relying on marketing or benchmarks, we're running our own structured evaluations across the tasks we actually do — and sharing what we learn.
 
 ## Quick Start
 
-1. **Pick a use case** from the table below
+1. **Pick a use case** from the table below or come up with your own
 2. **Run the same task** with both Claude Code and GitHub Copilot
 3. **Fill out the [scoring template](evaluation-framework/scoring-template.md)** while you work
 4. **Submit your results** via PR to `results/submissions/` or open an [issue](../../issues/new?template=evaluation-submission.md)
